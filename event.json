@@ -1,0 +1,3 @@
+{
+  "body": "command=%2Ftrain&text=6568&token=<myToken>&team_id=<myTeamId>&team_domain=teamname&channel_id=id&channel_name=directmessage&user_id=id&user_name=username&response_url=&trigger_id=<triggerid>"
+}

@@ -1,0 +1,41 @@
+{
+	"response_type": "ephemeral",
+	"blocks": [
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "Stato del treno *{trainType} {trainNumber}*"
+		}
+	},
+	{
+		"type": "section",
+		"fields": [
+			{
+				"type": "mrkdwn",
+				"text": "*Partenza:* {departureStation}"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Arrivo:* {arrivalStation}"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Ora di partenza:* {departureTime}"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Ora di arrivo:* {arrivalTime}"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Stato:* {statusEmoji} {status}"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Ultimo rilevamento:* {lastCheckpoint}"
+			}
+		]
+	}
+]
+}

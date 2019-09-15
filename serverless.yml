@@ -1,0 +1,17 @@
+service: trainstatus-slack
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  hello:
+    handler: handler.index
+    events:
+      - http:
+          path: trains/status
+          method: post
+          cors: true
+
+plugins:
+  - serverless-offline

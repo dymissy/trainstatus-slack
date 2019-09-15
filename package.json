@@ -1,0 +1,17 @@
+{
+  "name": "trainstatus-slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.11.0"
+  },
+  "scripts": {
+    "debug": "serverless invoke local --function hello -p event.json -l"
+  },
+  "author": "",
+  "license": "ISC"
+}
